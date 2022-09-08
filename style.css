@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
 a img{
     width: 100px;
     height: 100px;
@@ -9,4 +16,45 @@ a img{
     background-size: cover;
     background-image: url(/imagenes/arnold.jpg)
 
+}
+
+#quienes{
+    width: 350px;
+    height: 300px;
+}
+
+.transicion {
+    transition: all 1s;
+}
+.transicion:hover {
+    transform: scale(1.25, 1.25);
+    
+}
+.titulo{
+
+    font-weight: 500px;
+    font-style: oblique;
+     color:orange;
+    
+}
+.titulo-quienes{
+    font-weight: 500px;
+    font-style: oblique;
+     color:orange;
+    
+}
+.contacto-lista{
+    color: orange;
+}
+.titulo-productos{
+    
+    color: orange;
+    margin-top: 50px;
+}
+.transicion-productos{
+    transition: all 1s;
+
+}
+.transicion-productos:hover{
+    transform: scale(1.05, 1.05)
 }
