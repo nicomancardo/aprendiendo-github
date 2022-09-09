@@ -50,6 +50,7 @@ a img{
     
     color: orange;
     margin-top: 50px;
+
 }
 .transicion-productos{
     transition: all 1s;
@@ -77,3 +78,26 @@ a img{
             align-items: center;
     }
     }
+@media (max-width: 1174px) {
+    .cartitas{
+        width: 15rem !important;
+    }
+    
+}
+@media (max-width: 842px) {
+    .titulo-productos{
+        text-align: center;
+        padding-right: 45px;
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 1198px) {
+    #container-nosotros{
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
